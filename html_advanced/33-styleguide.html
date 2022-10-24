@@ -132,30 +132,35 @@
       <section>
          <header>
             <h2>Table</h2>
+         </header>
             <table>
                <caption>Star Wars Trilogy Data</caption> <!-- By default, a table caption will be center-aligned above a table -->
-               <tr> <!-- tr: table rows -->
-                  <th scope="col">Title</th> <!-- th: table header -->
-                  <th scope="col">Director</th> <!-- The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows -->
-                  <th scope="col">Release Date</th>
-               </tr>
-               <tr>
-                  <th scope="row">Star Wars: Episode IV - A New Hope</th> <!-- table header specified for row -->
-                  <td>George Lucas</td> <!-- td: table data -->
-                  <td>May 25th, 1977</td>
-               </tr>
-               <tr>
-                  <th scope="row">Star Wars: Episode V - The Empire Strikes Back</th>
-                  <td>Irvin Kershner</td>
-                  <td>May 21st, 1980</td>
-               </tr>
-               <tr>
-                  <th scope="row">Star Wars: Episode VI - Return of the Jedi</th>
-                  <td>Richard Marquand</td>
-                  <td>May 25th, 1983</td>
-               </tr>
+               <thead> <!-- The <thead> element defines a set of rows defining the head of the columns of the table.-->
+                  <tr> <!-- tr: table rows -->
+                     <th scope="col">Title</th> <!-- th: table header -->
+                     <th scope="col">Director</th> <!-- The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows -->
+                     <th scope="col">Release Date</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <th scope="row">Star Wars: Episode IV - A New Hope</th> <!-- table header specified for row -->
+                     <td>George Lucas</td> <!-- td: table data -->
+                     <td>May 25th, 1977</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Star Wars: Episode V - The Empire Strikes Back</th>
+                     <td>Irvin Kershner</td>
+                     <td>May 21st, 1980</td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Star Wars: Episode VI - Return of the Jedi</th>
+                     <td>Richard Marquand</td>
+                     <td>May 25th, 1983</td>
+                  </tr>
+            </tbody>   
             </table>
-         </header>
+         
       </section>
    </main>
    <footer></footer>
