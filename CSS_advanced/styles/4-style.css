@@ -29,7 +29,7 @@ a {
 .section-tagline {
    color: var(--color-primary);
 }
-/* "section h" means all header-levels elements inside section elements */
-section h {
+/* all section headings will have the font specified  */
+h {
    font-family: var(--font-family-title);
 }
