@@ -1,20 +1,20 @@
 html {
    scroll-behavior: smooth;
 }
-/* all body elements set to foreground color specidied*/
+/* all body elements set to foreground(!= to background) color specidied*/
 body {
-   background-color: #161616;
+   color: #161616;
 }
 a {
-   background-color: #161616;
+   color: #161616;
 }
 /* Selects all elements with class="visually-hidden" */
 .visually-hidden {
    display: none;
 }
 .card-category {
-   background-color: #D73953;
+   color: #D73953;
 }
 .section-tagline {
-   background-color: #D73953;
+   color: #D73953;
 }
