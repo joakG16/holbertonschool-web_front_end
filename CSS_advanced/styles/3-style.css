@@ -1,4 +1,9 @@
+/* The :root CSS pseudo-class matches the root element of a tree
+representing the document. In HTML, :root represents the <html> 
+element and is identical to the selector html, except that its 
+specificity is higher. */
 :root {
+   /* :root can be useful for declaring global CSS variables: */
    --color-primary: #d73953;
    --color-black: #090909;
    --color-white: #ffffff;
@@ -10,7 +15,7 @@ html {
    scroll-behavior: smooth;
 }
 body {
-   color: var(--text-color);
+   color: var(--text-color); /* using global variables*/
 }
 a {
    color: var(--text-color);
