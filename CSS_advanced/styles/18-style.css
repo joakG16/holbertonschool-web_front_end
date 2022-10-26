@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
    list-style: none;
    text-align: center;
 }
-/* target nav-item IN nav */
+/* target nav-item IN nav, put cursor in green text to understand better */
 .nav .nav-item {
    font-family: var(--nav-item-font-family);
    font-weight: var(--nav-item-font-weight);
@@ -141,10 +141,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .nav-link {
    display: block;
-   padding-top: 0.5rem; /* half the root element */
-   padding-bottom: 0.5rem;
-   padding-left: 1rem; /* equal to the root element */
-   padding-right: 1rem;
+   /*set the padding to half of the root element for top and bottom,
+   and equal to the root element for left and right*/
+   padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover {
    color: var(--nav-item-link-hover);
