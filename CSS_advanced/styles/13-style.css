@@ -29,6 +29,7 @@
    --section-title-margin: 0;
    --section-title-color: var(--color-black);
 }
+
 html {
    scroll-behavior: smooth;
    font-size: 62.5%;
@@ -40,9 +41,23 @@ body {
    font-weight: var(--font-weight-regular);
    line-height: var(--line-height-base);
 }
-a {
+a:link {
+   /* ensuring that the declarations below only targets
+   anchor with hyperlinks, using ":link" */
    color: var(--text-color);
    text-decoration: none;
+}
+/* visited state for the link */
+a:visited {
+   font-style: italic;
+}
+/* hover: basically, pointing to it, but not activating (visiting) it */
+a:hover {
+   text-decoration: underline;
+}
+/* active: a link the moment it is clicked */
+a:active {
+   background-color: var(--color-light-grey);
 }
 .visually-hidden {
    display: none;
