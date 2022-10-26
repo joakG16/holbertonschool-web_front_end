@@ -93,6 +93,8 @@ a:active {
 }
 .section-footer {
    padding: var(--section-footer-padding);
+   /* setting horizontal alignment */
+   text-align: var(--section-footer-align);
 }
 .section-title {
    font-family: var(--font-family-title);
