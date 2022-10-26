@@ -86,12 +86,8 @@ a:active {
 .container {
    /* specifiying the width of the content area */
    width: 960px;
-   /* Setting the margin property to auto, to horizontally 
-   center the element within its container.
-   The element will then take up the specified width, and the 
-   remaining space will be split equally between the left and right margins.
-   */
-   margin: auto;
+   margin-left: auto;
+   margin-right: auto;
 }
 h1, h2, h3, h4, h5, h6 {
    font-family: var(--font-family-title);
