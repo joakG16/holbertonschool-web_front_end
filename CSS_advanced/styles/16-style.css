@@ -33,7 +33,6 @@
    --section-title-color: var(--color-black);
 }
 
-/* This * selector applies to each and every element in the html file. This way selected pseudo elements as well */
 *, *::before, *::after {
    box-sizing: border-box ;
 }
@@ -83,6 +82,16 @@ a:active {
    font-family: var(--font-family-title);
    text-transform: var(--section-tagline-transform);
    font-weight: var(--font-weight-bold);
+}
+.container {
+   /* specifiying the width of the content area */
+   width: 960px;
+   /* Setting the margin property to auto, to horizontally 
+   center the element within its container.
+   The element will then take up the specified width, and the 
+   remaining space will be split equally between the left and right margins.
+   */
+   margin: auto;
 }
 h1, h2, h3, h4, h5, h6 {
    font-family: var(--font-family-title);
