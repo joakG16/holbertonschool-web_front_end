@@ -130,7 +130,8 @@ h1, h2, h3, h4, h5, h6 {
    list-style: none;
    text-align: center;
 }
-.nav-item {
+/* target nav-item IN nav */
+.nav .nav-item {
    font-family: var(--nav-item-font-family);
    font-weight: var(--nav-item-font-weight);
    font-size: var(--nav-item-font-size);
@@ -138,13 +139,13 @@ h1, h2, h3, h4, h5, h6 {
    display: var(--nav-item-display);
    margin: var(--nav-item-margin);
 }
-.nav-link {
+.nav .nav-link {
    display: block;
    padding-top: 0.5rem; /* half the root element */
    padding-bottom: 0.5rem;
    padding-left: 1rem; /* equal to the root element */
    padding-right: 1rem;
 }
-.nav-link:hover {
+.nav .nav-link:hover {
    color: var(--nav-item-link-hover);
 }
