@@ -171,8 +171,8 @@ ul.row {
 .footer ul {
    text-align: right;
 }
-.row::after {
+.row::after { /* selector for after state of row class */
    content: "";
    display: table;
-   float: none;
+   clear: both;
 }
