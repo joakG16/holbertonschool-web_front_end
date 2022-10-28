@@ -289,7 +289,7 @@ div .footer-address {
    position: relative;
    overflow: hidden;
 }
-.card-work .card-image {
+.card-work .card-image img { /* targeting the image inside card-image inside card-work */
    height: 30rem;
    width: 100%;
    object-fit: cover;
