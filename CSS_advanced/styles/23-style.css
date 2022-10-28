@@ -176,12 +176,13 @@ ul.row {
    float: left;
    padding: 0.5rem;
 }
-[data-section-theme="dark"]{ /* select all elements with the specified attribute and value */
+[data-section-theme="dark"]{
    --text-color: var(--color-white);
    --section-title-color: var(--color-white);
    background-color: var(--color-black);
 }
-.footer-adress {
+.footer-address {
+   --text-color: var(--color-white);
    color: var(--text-color);
 }
 .social-link {
