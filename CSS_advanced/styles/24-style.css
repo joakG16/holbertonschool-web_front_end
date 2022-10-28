@@ -7,7 +7,7 @@
    --color-white: #ffffff;
    --color-light-grey: #f3f3f3;
    --color-dark-grey: #353535;
-   --text-color: var(--color-white);
+   --text-color: var(--color-black);
 
    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
    --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -176,17 +176,31 @@ ul.row {
    float: left;
    padding: 0.5rem;
 }
-[data-section-theme="dark"]{ /* select all elements with the specified attribute and value */
+[data-section-theme="dark"]{
    --text-color: var(--color-white);
    --section-title-color: var(--color-white);
    background-color: var(--color-black);
 }
-.footer-address {
+div .footer-address {
+   --text-color: var(--color-white);
    color: var(--text-color);
 }
 .social-link {
    display: block;
 }
-.social-link > svg { /* Selects all <svg> elements where the parent is an element with class="social-link" */
-   fill: var(--text-color); /* The fill property in CSS is for filling in the color of a SVG shape */
+.social-link > svg { 
+   fill: var(--text-color); 
+}
+.card-services .card-title {
+   margin: 0;
+}
+.card-services a {
+   display: block;
+   padding: 2rem;
+   background-color: var(--color-light-grey);
+}
+.card-services a:hover {
+   color: var(--color-white);
+   background-color: var(--color-primary);
+   text-decoration: none;
 }
