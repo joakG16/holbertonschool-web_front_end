@@ -172,7 +172,7 @@ ul.row {
    display: table;
    clear: both;
 }
-[class^="-col"] { /* select all elemnts whose class starts with a "-col" */
+[class^="col-"] { /* select all elemnts whose class starts with a "-col" */
    float: left;
    padding: 0.5rem;
 }
