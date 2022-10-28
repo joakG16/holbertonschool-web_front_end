@@ -267,7 +267,6 @@ div .footer-address {
 .header-logo a {
    display: var(--header-logo-link-display); /* inline-block */
    position: var(--header-logo-link-position); /* absolute */
-   margin-top: var(--header-logo-link-top);
-   margin-left: var(--header-logo-link-left);
+   top: var(--header-logo-link-top); /* sets from initial top position */
+   left: var(--header-logo-link-left);
 }
-
